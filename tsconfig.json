@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "ES6",
+        "target": "es2021",
+        "jsx": "react-jsx",
+        "allowJs": true,
+        "moduleResolution": "node",
+    },
+    "include": [
+        "src/**/*",
+        "typings/global.d.ts" // the path to your .d.ts file
+    ]
+}
