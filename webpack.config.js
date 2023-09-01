@@ -12,7 +12,7 @@ module.exports = () => {
     // const mode = process.env.NODE_ENV || 'production'
     const SOURCE_FOLDER = path.resolve(__dirname, 'src')
     const DIST_FOLDER = path.resolve(__dirname, 'dist')
-    let VERSION = process.env.HEROKU_SLUG_COMMIT || 'DEV'
+    let VERSION = 'HEROKU' // process.env.HEROKU_SLUG_COMMIT || 'DEV'
 
     if (VERSION === 'DEV') {
         VERSION = require('child_process')
