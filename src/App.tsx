@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/index.css'
+import './css/main/colors.css'
 import './css/main/fonts.css'
 
 function App() {

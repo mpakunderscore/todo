@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    font-family: var(--font);
+    border: none;
+    outline: none;
+    margin: 0;
+    border-radius: 0;
+}
+
+@supports (-webkit-touch-callout: none) {
+    body {
+        --app-height: 100dvh;
+    }
+}
