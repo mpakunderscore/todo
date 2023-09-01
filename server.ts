@@ -1,6 +1,6 @@
-const {initSocket} = require("./server/socket");
-const {initAPI} = require("./server/api");
-const {initDatabase} = require("./server/database/database");
+// const {initSocket} = require("./server/socket");
+// const {initAPI} = require("./server/api");
+// const {initDatabase} = require("./server/database/database");
 
 const { Server } = require('socket.io')
 const path = require('path')
@@ -26,7 +26,7 @@ server.listen(port)
 
 require('dotenv').config()
 
-initAPI(app)
+// initAPI(app)
 // initSocket(io)
 // initDatabase()
 
